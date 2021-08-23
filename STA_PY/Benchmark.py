@@ -5,7 +5,7 @@ from functools import reduce
 from operator import mul
 
 """ 
-由于注释无法写入mathtype公式，以下函数的数学形式请阅读 README。md
+由于注释无法写入mathtype公式，以下函数的数学形式请阅读 benchmark.pdf
 """
 def Sphere(s):
 	square = map(lambda y: y * y ,s)

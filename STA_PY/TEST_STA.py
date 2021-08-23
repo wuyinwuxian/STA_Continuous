@@ -2,7 +2,7 @@ import numpy as np
 import random as rd
 import matplotlib.pyplot as plt
 from Benchmark import Sphere,Rastrigin,Rosenbrock,Griewank,Michalewicz
-from STA import *
+from STA import STA
 
 SE = 30
 Dim = 5
