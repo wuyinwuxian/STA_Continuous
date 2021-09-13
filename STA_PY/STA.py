@@ -45,10 +45,10 @@ if __name__ == '__main__':
 	SE = 10
 	Dim = 10
 	Range = np.repeat([-30,30],Dim).reshape(2,Dim)
-	print(Range)
+	# print(Range)
 	Best0 = Range[0,:] + (Range[1,:]-Range[0,:]*np.random.uniform(0,1,(1,Dim)))
-	print(Best0)
+	print("初始解：", Best0)
 
 	Iterations = 1000
 	Best,fBest,history = STA(funfcn,Best0,SE,Range,Iterations)
-	print(Best,fBest)
+	print("最优解：",Best,"\n最优值：",fBest)
